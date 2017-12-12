@@ -16,10 +16,12 @@
 
 //Game resets after 9 guesses, resets if correct guess within 9 or less
 
+
+//create variables
 //Letter choices available
 var computerChoice = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"];
 
-//Setting all to starting numbers
+//Setting all starting values
 var wins = 0;
 var losses = 0;
 var guessesLeft = 9;
